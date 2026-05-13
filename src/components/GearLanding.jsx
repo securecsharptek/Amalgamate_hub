@@ -1,3 +1,5 @@
+import gearBackground from "../assets/gear-background.png";
+
 export default function GearLanding({ onBack }) {
   return (
     <div
@@ -71,7 +73,7 @@ export default function GearLanding({ onBack }) {
       <main
         className="flex-1 relative overflow-hidden"
         style={{
-          backgroundImage: "url('/src/assets/gear-background.png')",
+          backgroundImage: `url(${gearBackground})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
